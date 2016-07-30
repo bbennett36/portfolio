@@ -11,7 +11,7 @@ class App extends Component {
         <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Welcome to my Portfilio!</h2>
-        <navbarInstance />
+        <NavbarInstance />
 
         </div>
         <p className="App-intro">
@@ -23,7 +23,7 @@ class App extends Component {
 }
 
 
-const navbarInstance =  React.createClass({
+const NavbarInstance =  React.createClass({
   render: function() {
    return (
   <Navbar inverse>
